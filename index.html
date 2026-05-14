@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Космическое Путешествие</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <header>
+       <nav>
+           <div class="logo">AstroCode</div>
+           <ul>
+               <li><a href="#home">Главная</a></li>
+               <li><a href="#about">О проекте</a></li>
+               <li><a href="#gallery">Галерея</a></li>
+           </ul>
+           <button id="themeToggle">Сменить тему</button>
+       </nav>
+   </header>
+
+   <section id="home" class="hero">
+       <div class="hero-content">
+           <h1>Покоряй просторы веба</h1>
+           <p>Узнай, как создавать свои миры с помощью кода.</p>
+           <button class="cta-button" onclick="showAlert()">Начать полет</button>
+       </div>
+   </section>
+
+   <section id="about" class="content-section">
+       <h2>О миссии</h2>
+       <p>Этот лендинг создан школьниками, чтобы изучить основы HTML, CSS и JS.</p>
+
+       <div class="card-container">
+           <div class="card">
+               <h3>Дизайн</h3>
+               <p>Мы использовали CSS-флексы для красоты.</p>
+           </div>
+
+           <div class="card">
+               <h3>Логика</h3>
+               <p>JavaScript оживляет наши кнопки.</p>
+           </div>
+       </div>
+   </section>
+
+   <section id="gallery" class="content-section">
+       <h2>Галерея планет</h2>
+
+       <div class="image-grid">
+           <img src="https://picsum.photos/id/10/300/200" alt="Космос 1">
+           <img src="https://picsum.photos/id/1029/300/200" alt="Космос 2">
+           <img src="https://picsum.photos/id/1041/300/200" alt="Космос 3">
+       </div>
+   </section>
+
+   <footer>
+       <p>К.Алтынай</p>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
